@@ -225,8 +225,8 @@ def main(input_folder, success_folder, output_json_folder):
                 print(f"Failed to parse {file_name}: {e}")
 
 # Example Usage
-input_folder = '/Users/madhavpatel/Downloads/madhavpatel/statement reader/bank_pdf_2'  # Replace with the path to your folder containing PDFs
-success_folder = '/Users/madhavpatel/Downloads/madhavpatel/statement reader/success_folder'  # Replace with the path to your success folder
-output_json_folder = '/Users/madhavpatel/Downloads/madhavpatel/statement reader/output_json'  # Replace with the path to your output JSON folder
+input_folder = './input'  # Replace with the path to your folder containing PDFs
+success_folder = './success'  # Replace with the path to your success folder
+output_json_folder = './output_json'  # Replace with the path to your output JSON folder
 main(input_folder, success_folder, output_json_folder)
 
